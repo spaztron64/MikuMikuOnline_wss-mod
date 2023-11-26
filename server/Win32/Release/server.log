@@ -1,0 +1,9 @@
+﻿Build started 26-Nov-23 13:08:18.
+     1>Project "C:\mikumikuonline_src\server\server.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "C:\mikumikuonline_src\server\Win32\Release\server.lastbuildstate".
+     1>Done Building Project "C:\mikumikuonline_src\server\server.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.00

@@ -1,0 +1,29 @@
+﻿2014/11/24 22:12:06 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "F:\src\v8_3_18_x64\preparser\preparser.vcxproj" (rebuild ターゲット)。
+     1>_PrepareForClean:
+         ファイル "..\build\Release\obj\preparser\preparser.lastbuildstate" を削除しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "..\build\Release\obj\preparser\preparser.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\src /Zi /nologo /W3 /WX /O2 /Ob2 /Oi /GL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _HAS_EXCEPTIONS=0 /D ENABLE_DEBUGGER_SUPPORT /D V8_TARGET_ARCH_X64 /D WIN32 /D _UNICODE /D UNICODE /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"..\build\Release\obj\preparser\\" /Fd"..\build\Release\obj\preparser\vc100.pdb" /Gd /TP /wd4355 /wd4800 /errorReport:prompt "preparser-process.cc" "..\src\preparser-api.cc" /MP 
+         preparser-process.cc
+         preparser-api.cc
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\build\Release\preparser.exe" /INCREMENTAL:NO /NOLOGO ws2_32.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\build\Release\obj\preparser\preparser.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\src\v8_3_18_x64\build\Release\preparser.pdb" /SUBSYSTEM:CONSOLE /STACK:"2097152" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:"..\build\Release\lib\preparser.lib" /MACHINE:X64 "..\build\Release\obj\preparser\preparser-process.obj"
+         "..\build\Release\obj\preparser\preparser-api.obj"
+         F:\src\v8_3_18_x64\build\Release\lib\v8_snapshot.lib
+         F:\src\v8_3_18_x64\build\Release\lib\v8_base.x64.lib
+         preparser-process.obj : MSIL .netmodule または /GL を伴ってコンパイルされたモジュールが見つかりました。/LTCG を使用して再開始してください。リンカーのパフォーマンスを向上させるためには、コマンドラインに /LTCG を追加してください。
+         コード生成しています。
+         コード生成が終了しました。
+         preparser.vcxproj -> ..\build\Release\\preparser.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\build\Release\preparser.exe;#1" /manifest ..\build\Release\obj\preparser\preparser.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "..\build\Release\obj\preparser\preparser.unsuccessfulbuild" を削除しています。
+         "..\build\Release\obj\preparser\preparser.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "F:\src\v8_3_18_x64\preparser\preparser.vcxproj" (rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:01:32.94

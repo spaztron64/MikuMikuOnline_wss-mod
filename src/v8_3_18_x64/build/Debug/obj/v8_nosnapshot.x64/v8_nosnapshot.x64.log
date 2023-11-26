@@ -1,0 +1,24 @@
+﻿2014/12/14 18:36:32 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "F:\src\v8_3_18_x64\tools\gyp\v8_nosnapshot.x64.vcxproj" (rebuild ターゲット)。
+     1>_PrepareForClean:
+         ファイル "..\..\build\Debug\obj\v8_nosnapshot.x64\v8_nosnapshot.x64.lastbuildstate" を削除しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "..\..\build\Debug\obj\v8_nosnapshot.x64\v8_nosnapshot.x64.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\src /Zi /nologo /W3 /WX /Od /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _HAS_EXCEPTIONS=0 /D ENABLE_DEBUGGER_SUPPORT /D V8_TARGET_ARCH_X64 /D WIN32 /D DEBUG /D ENABLE_DISASSEMBLER /D V8_ENABLE_CHECKS /D OBJECT_PRINT /D VERIFY_HEAP /D ENABLE_EXTRA_CHECKS /D _UNICODE /D UNICODE /Gm- /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"..\..\build\Debug\obj\v8_nosnapshot.x64\\" /Fd"..\..\build\Debug\obj\v8_nosnapshot.x64\vc100.pdb" /Gd /TP /wd4355 /wd4800 /errorReport:prompt ..\..\build\Debug\obj\global_intermediate\libraries.cc "..\..\build\Debug\obj\global_intermediate\experimental-libraries.cc" "..\..\src\snapshot-empty.cc" /MP 
+         libraries.cc
+         experimental-libraries.cc
+         snapshot-empty.cc
+       Lib:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\..\build\Debug\lib\v8_nosnapshot.x64.lib" /NOLOGO ..\..\build\Debug\obj\v8_nosnapshot.x64\libraries.obj
+         "..\..\build\Debug\obj\v8_nosnapshot.x64\experimental-libraries.obj"
+         "..\..\build\Debug\obj\v8_nosnapshot.x64\snapshot-empty.obj" /ignore:4221 
+         v8_nosnapshot.x64.vcxproj -> ..\..\build\Debug\lib\v8_nosnapshot.x64.lib
+       FinalizeBuildStatus:
+         ファイル "..\..\build\Debug\obj\v8_nosnapshot.x64\v8_nosnapshot.x64.unsuccessfulbuild" を削除しています。
+         "..\..\build\Debug\obj\v8_nosnapshot.x64\v8_nosnapshot.x64.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "F:\src\v8_3_18_x64\tools\gyp\v8_nosnapshot.x64.vcxproj" (rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:09.85

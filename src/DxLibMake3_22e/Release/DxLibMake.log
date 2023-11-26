@@ -1,0 +1,197 @@
+﻿Build started 26-Nov-23 14:45:26.
+     1>Project "C:\mikumikuonline_src\src\DxLibMake3_22e\DxLibMake.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\DxLibMake.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DxArchive_.cpp DxASyncLoad.cpp DxBaseFunc.cpp DxBaseImage.cpp DxChar.cpp DxCharCodeTable.cpp DxFile.cpp DxFont.cpp DxGateway.cpp DxGraphics.cpp DxGraphicsFilter.cpp DxHandle.cpp DxHeap.cpp DxInput.cpp DxInputString.cpp DxLive2DCubism4.cpp DxLog.cpp DxMask.cpp DxMath.cpp DxMemImg.cpp DxMemory.cpp DxModel.cpp DxModelLoader0.cpp DxModelLoader1.cpp DxModelLoader2.cpp DxModelLoader3.cpp DxModelLoader4.cpp DxModelLoaderVMD.cpp DxModelRead.cpp DxMovie.cpp DxNetwork.cpp DxRingBuffer.cpp DxSoftImage.cpp DxSound.cpp DxSoundConvert.cpp DxSystem.cpp DxThread.cpp Windows\DxBaseFuncWin.cpp Windows\DxBaseImageWin.cpp Windows\DxFileWin.cpp Windows\DxFontWin.cpp Windows\DxGraphicsAPIWin.cpp Windows\DxGraphicsD3D11.cpp Windows\DxGraphicsD3D9.cpp Windows\DxGraphicsFilterD3D11.cpp Windows\DxGraphicsFilterD3D9.cpp Windows\DxGraphicsFilterWin.cpp Windows\DxGraphicsWin.cpp Windows\DxGuid.cpp Windows\DxInputWin.cpp Windows\DxKeyHookBinary.cpp Windows\DxLive2DCubism4Win.cpp Windows\DxLogWin.cpp Windows\DxMaskD3D11.cpp Windows\DxMaskD3D9.cpp Windows\DxMaskWin.cpp Windows\DxMemoryWin.cpp Windows\DxModelD3D11.cpp Windows\DxModelD3D9.cpp Windows\DxModelWin.cpp Windows\DxMovieWin.cpp Windows\DxNetworkWin.cpp Windows\DxShaderCodeBin_Base3D_D3D11.cpp Windows\DxShaderCodeBin_Base3D_D3D9.cpp Windows\DxShaderCodeBin_Base_D3D11.cpp Windows\DxShaderCodeBin_Base_D3D9.cpp Windows\DxShaderCodeBin_Filter_D3D11.cpp Windows\DxShaderCodeBin_Filter_D3D9.cpp Windows\DxShaderCodeBin_Live2D_Cubism4_D3D11.cpp Windows\DxShaderCodeBin_Live2D_Cubism4_D3D9.cpp Windows\DxShaderCodeBin_Model_D3D11.cpp Windows\DxShaderCodeBin_Model_D3D9.cpp Windows\DxShaderCodeBin_RgbaMix_D3D11.cpp Windows\DxShaderCodeBin_RgbaMix_D3D9.cpp Windows\DxShaderCodeTxt_D3D11.cpp Windows\DxShaderCodeTxt_D3D9.cpp Windows\DxSoundConvertWin.cpp Windows\DxSoundWin.cpp Windows\DxSystemWin.cpp Windows\DxThreadWin.cpp Windows\DxWinAPI.cpp Windows\DxWindow.cpp
+         DxArchive_.cpp
+         DxASyncLoad.cpp
+         DxBaseFunc.cpp
+         DxBaseImage.cpp
+     1>DxBaseImage.cpp(1067): warning C4244: 'argument' : conversion from 'LONGLONG' to 'size_t', possible loss of data
+     1>DxBaseImage.cpp(1072): warning C4244: 'argument' : conversion from 'LONGLONG' to 'size_t', possible loss of data
+     1>DxBaseImage.cpp(1075): warning C4244: 'argument' : conversion from 'LONGLONG' to 'size_t', possible loss of data
+     1>DxBaseImage.cpp(3971): warning C4244: 'argument' : conversion from 'ULONGLONG' to 'size_t', possible loss of data
+         DxChar.cpp
+         DxCharCodeTable.cpp
+         DxFile.cpp
+         DxFont.cpp
+         DxGateway.cpp
+         DxGraphics.cpp
+         DxGraphicsFilter.cpp
+         DxHandle.cpp
+         DxHeap.cpp
+         DxInput.cpp
+         DxInputString.cpp
+         DxLive2DCubism4.cpp
+         DxLog.cpp
+         DxMask.cpp
+         DxMath.cpp
+         DxMemImg.cpp
+         Generating Code...
+         Compiling...
+         DxMemory.cpp
+         DxModel.cpp
+     1>DxModel.cpp(25798): warning C4101: 'i' : unreferenced local variable
+     1>DxModel.cpp(25797): warning C4101: 'Mesh' : unreferenced local variable
+         DxModelLoader0.cpp
+         DxModelLoader1.cpp
+         DxModelLoader2.cpp
+         DxModelLoader3.cpp
+         DxModelLoader4.cpp
+         DxModelLoaderVMD.cpp
+         DxModelRead.cpp
+         DxMovie.cpp
+         DxNetwork.cpp
+         DxRingBuffer.cpp
+         DxSoftImage.cpp
+         DxSound.cpp
+         DxSoundConvert.cpp
+         DxSystem.cpp
+         DxThread.cpp
+         DxBaseFuncWin.cpp
+         DxBaseImageWin.cpp
+         DxFileWin.cpp
+         Generating Code...
+         Compiling...
+         DxFontWin.cpp
+         DxGraphicsAPIWin.cpp
+         DxGraphicsD3D11.cpp
+         DxGraphicsD3D9.cpp
+         DxGraphicsFilterD3D11.cpp
+         DxGraphicsFilterD3D9.cpp
+         DxGraphicsFilterWin.cpp
+         DxGraphicsWin.cpp
+         DxGuid.cpp
+         DxInputWin.cpp
+         DxKeyHookBinary.cpp
+         DxLive2DCubism4Win.cpp
+         DxLogWin.cpp
+         DxMaskD3D11.cpp
+         DxMaskD3D9.cpp
+         DxMaskWin.cpp
+         DxMemoryWin.cpp
+         DxModelD3D11.cpp
+         DxModelD3D9.cpp
+         DxModelWin.cpp
+         Generating Code...
+         Compiling...
+         DxMovieWin.cpp
+         DxNetworkWin.cpp
+         DxShaderCodeBin_Base3D_D3D11.cpp
+         DxShaderCodeBin_Base3D_D3D9.cpp
+         DxShaderCodeBin_Base_D3D11.cpp
+         DxShaderCodeBin_Base_D3D9.cpp
+         DxShaderCodeBin_Filter_D3D11.cpp
+         DxShaderCodeBin_Filter_D3D9.cpp
+         DxShaderCodeBin_Live2D_Cubism4_D3D11.cpp
+         DxShaderCodeBin_Live2D_Cubism4_D3D9.cpp
+         DxShaderCodeBin_Model_D3D11.cpp
+         DxShaderCodeBin_Model_D3D9.cpp
+         DxShaderCodeBin_RgbaMix_D3D11.cpp
+         DxShaderCodeBin_RgbaMix_D3D9.cpp
+         DxShaderCodeTxt_D3D11.cpp
+         DxShaderCodeTxt_D3D9.cpp
+         DxSoundConvertWin.cpp
+         DxSoundWin.cpp
+         DxSystemWin.cpp
+         DxThreadWin.cpp
+         Generating Code...
+         Compiling...
+         DxWinAPI.cpp
+         DxWindow.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Release\DxLib.lib" /NOLOGO Release\DxArchive_.obj
+         Release\DxASyncLoad.obj
+         Release\DxBaseFunc.obj
+         Release\DxBaseImage.obj
+         Release\DxChar.obj
+         Release\DxCharCodeTable.obj
+         Release\DxFile.obj
+         Release\DxFont.obj
+         Release\DxGateway.obj
+         Release\DxGraphics.obj
+         Release\DxGraphicsFilter.obj
+         Release\DxHandle.obj
+         Release\DxHeap.obj
+         Release\DxInput.obj
+         Release\DxInputString.obj
+         Release\DxLive2DCubism4.obj
+         Release\DxLog.obj
+         Release\DxMask.obj
+         Release\DxMath.obj
+         Release\DxMemImg.obj
+         Release\DxMemory.obj
+         Release\DxModel.obj
+         Release\DxModelLoader0.obj
+         Release\DxModelLoader1.obj
+         Release\DxModelLoader2.obj
+         Release\DxModelLoader3.obj
+         Release\DxModelLoader4.obj
+         Release\DxModelLoaderVMD.obj
+         Release\DxModelRead.obj
+         Release\DxMovie.obj
+         Release\DxNetwork.obj
+         Release\DxRingBuffer.obj
+         Release\DxSoftImage.obj
+         Release\DxSound.obj
+         Release\DxSoundConvert.obj
+         Release\DxSystem.obj
+         Release\DxThread.obj
+         Release\DxBaseFuncWin.obj
+         Release\DxBaseImageWin.obj
+         Release\DxFileWin.obj
+         Release\DxFontWin.obj
+         Release\DxGraphicsAPIWin.obj
+         Release\DxGraphicsD3D11.obj
+         Release\DxGraphicsD3D9.obj
+         Release\DxGraphicsFilterD3D11.obj
+         Release\DxGraphicsFilterD3D9.obj
+         Release\DxGraphicsFilterWin.obj
+         Release\DxGraphicsWin.obj
+         Release\DxGuid.obj
+         Release\DxInputWin.obj
+         Release\DxKeyHookBinary.obj
+         Release\DxLive2DCubism4Win.obj
+         Release\DxLogWin.obj
+         Release\DxMaskD3D11.obj
+         Release\DxMaskD3D9.obj
+         Release\DxMaskWin.obj
+         Release\DxMemoryWin.obj
+         Release\DxModelD3D11.obj
+         Release\DxModelD3D9.obj
+         Release\DxModelWin.obj
+         Release\DxMovieWin.obj
+         Release\DxNetworkWin.obj
+         Release\DxShaderCodeBin_Base3D_D3D11.obj
+         Release\DxShaderCodeBin_Base3D_D3D9.obj
+         Release\DxShaderCodeBin_Base_D3D11.obj
+         Release\DxShaderCodeBin_Base_D3D9.obj
+         Release\DxShaderCodeBin_Filter_D3D11.obj
+         Release\DxShaderCodeBin_Filter_D3D9.obj
+         Release\DxShaderCodeBin_Live2D_Cubism4_D3D11.obj
+         Release\DxShaderCodeBin_Live2D_Cubism4_D3D9.obj
+         Release\DxShaderCodeBin_Model_D3D11.obj
+         Release\DxShaderCodeBin_Model_D3D9.obj
+         Release\DxShaderCodeBin_RgbaMix_D3D11.obj
+         Release\DxShaderCodeBin_RgbaMix_D3D9.obj
+         Release\DxShaderCodeTxt_D3D11.obj
+         Release\DxShaderCodeTxt_D3D9.obj
+         Release\DxSoundConvertWin.obj
+         Release\DxSoundWin.obj
+         Release\DxSystemWin.obj
+         Release\DxThreadWin.obj
+         Release\DxWinAPI.obj
+         Release\DxWindow.obj
+     1>DxModelLoader1.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         DxLibMake.vcxproj -> C:\mikumikuonline_src\src\DxLibMake3_22e\Release\DxLib.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\DxLibMake.unsuccessfulbuild".
+         Touching "Release\DxLibMake.lastbuildstate".
+     1>Done Building Project "C:\mikumikuonline_src\src\DxLibMake3_22e\DxLibMake.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:53.33

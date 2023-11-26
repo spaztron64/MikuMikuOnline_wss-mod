@@ -1,0 +1,47 @@
+﻿Build started 26-Nov-23 15:06:45.
+     1>Project "C:\mikumikuonline_src\src\cryptopp562\cryptest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\cryptest\Release\cryptest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob2 /Oi /Oy /D NDEBUG /D _CONSOLE /D WIN32 /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\cryptest\Release\\" /Fd"Win32\cryptest\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt adhoc.cpp bench.cpp datatest.cpp dlltest.cpp fipsalgt.cpp regtest.cpp test.cpp validat1.cpp validat2.cpp validat3.cpp /Zm400  
+         adhoc.cpp
+         bench.cpp
+         datatest.cpp
+         dlltest.cpp
+         fipsalgt.cpp
+         regtest.cpp
+         test.cpp
+         validat1.cpp
+         validat2.cpp
+         validat3.cpp
+         Generating Code...
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Oy /D NDEBUG /D _CONSOLE /D WIN32 /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\cryptest\Release\\" /Fd"Win32\cryptest\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bench2.cpp /Zm400  
+         bench2.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Output\Release\cryptest.exe" /NOLOGO odbc32.lib odbccp32.lib Ws2_32.lib R:\DXSDKDEC06\Lib\x86\d3dx.lib R:\DXSDKDEC06\Lib\x86\ddraw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /MANIFEST /ManifestFile:"Win32\cryptest\Release\cryptest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\mikumikuonline_src\src\cryptopp562\Win32\Output\Release\cryptest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Win32\Output\Release\cryptest.lib" /MACHINE:X86 Win32\cryptest\Release\adhoc.obj
+         Win32\cryptest\Release\bench.obj
+         Win32\cryptest\Release\bench2.obj
+         Win32\cryptest\Release\datatest.obj
+         Win32\cryptest\Release\dlltest.obj
+         Win32\cryptest\Release\fipsalgt.obj
+         Win32\cryptest\Release\regtest.obj
+         Win32\cryptest\Release\test.obj
+         Win32\cryptest\Release\validat1.obj
+         Win32\cryptest\Release\validat2.obj
+         Win32\cryptest\Release\validat3.obj
+         C:\mikumikuonline_src\src\cryptopp562\Win32\Output\Release\cryptlib.lib
+         Generating code
+         Finished generating code
+         cryptest.vcxproj -> C:\mikumikuonline_src\src\cryptopp562\Win32\Output\Release\cryptest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Win32\Output\Release\cryptest.exe;#1" /manifest Win32\cryptest\Release\cryptest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\cryptest\Release\cryptest.unsuccessfulbuild".
+         Touching "Win32\cryptest\Release\cryptest.lastbuildstate".
+     1>Done Building Project "C:\mikumikuonline_src\src\cryptopp562\cryptest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.89

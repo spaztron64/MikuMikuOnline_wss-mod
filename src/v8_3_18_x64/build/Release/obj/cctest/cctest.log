@@ -1,0 +1,155 @@
+﻿2014/11/24 22:12:07 にビルドを開始しました。
+     1>ノード 6 上のプロジェクト "F:\src\v8_3_18_x64\test\cctest\cctest.vcxproj" (rebuild ターゲット)。
+     1>_PrepareForClean:
+         ファイル "..\..\build\Release\obj\cctest\cctest.lastbuildstate" を削除しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "..\..\build\Release\obj\cctest\cctest.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\src /I..\..\include /Zi /nologo /W3 /WX /O2 /Ob2 /Oi /GL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _HAS_EXCEPTIONS=0 /D ENABLE_DEBUGGER_SUPPORT /D V8_TARGET_ARCH_X64 /D WIN32 /D _UNICODE /D UNICODE /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"..\..\build\Release\obj\cctest\\" /Fd"..\..\build\Release\obj\cctest\vc100.pdb" /Gd /TP /wd4355 /wd4800 /errorReport:prompt "test-circular-queue.cc" "test-dataflow.cc" "test-macro-assembler-x64.cc" "gay-shortest.cc" "test-flags.cc" "test-fixed-dtoa.cc" "test-symbols.cc" "test-decls.cc" "test-fast-dtoa.cc" "test-dtoa.cc" "test-assembler-x64.cc" "test-double.cc" "test-hashing.cc" "test-utils.cc" "test-log.cc" "test-version.cc" "gay-precision.cc" "test-func-name-inference.cc" "test-sockets.cc" "test-mark-compact.cc" "test-declarative-accessors.cc" "test-object-observe.cc" "test-bignum-dtoa.cc" "test-threads.cc" "test-accessors.cc" "test-ast.cc" "test-weakmaps.cc" "test-strtod.cc" "test-global-object.cc" "test-deoptimization.cc" "test-platform-tls.cc" "test-regexp.cc" "test-cpu-profiler.cc" "test-dictionary.cc" "test-list.cc" "test-bignum.cc" "test-reloc-info.cc" "test-serialize.cc" "test-diy-fp.cc" "test-lockers.cc" "test-debug.cc" "test-profile-generator.cc" "test-conversions.cc" "test-api.cc" cctest.cc "test-liveedit.cc" "test-spaces.cc" "test-log-stack-tracer.cc" "gay-fixed.cc" "test-heap.cc" "test-hashmap.cc" "test-global-handles.cc" "test-thread-termination.cc" "test-heap-profiler.cc" "test-platform.cc" "test-alloc.cc" "test-compiler.cc" "test-parsing.cc" "test-random.cc" "test-unbound-queue.cc" "test-lock.cc" "test-strings.cc" "test-platform-win32.cc" "test-date.cc" ..\..\build\Release\obj\global_intermediate\resources.cc /MP /bigobj 
+         test-circular-queue.cc
+         test-dataflow.cc
+         test-macro-assembler-x64.cc
+         gay-shortest.cc
+         test-flags.cc
+         test-fixed-dtoa.cc
+         test-symbols.cc
+         test-decls.cc
+         test-fast-dtoa.cc
+         test-dtoa.cc
+         test-assembler-x64.cc
+         test-double.cc
+         test-hashing.cc
+         test-utils.cc
+         test-log.cc
+         test-version.cc
+         gay-precision.cc
+         test-func-name-inference.cc
+         test-sockets.cc
+         test-mark-compact.cc
+         test-declarative-accessors.cc
+         test-object-observe.cc
+         test-bignum-dtoa.cc
+         test-threads.cc
+         test-accessors.cc
+         test-ast.cc
+         test-weakmaps.cc
+         test-strtod.cc
+         test-global-object.cc
+         test-deoptimization.cc
+         test-platform-tls.cc
+         test-regexp.cc
+         test-cpu-profiler.cc
+         test-dictionary.cc
+         test-list.cc
+         test-bignum.cc
+         test-reloc-info.cc
+         test-serialize.cc
+         test-diy-fp.cc
+         test-lockers.cc
+         test-debug.cc
+         test-profile-generator.cc
+         test-conversions.cc
+         test-api.cc
+         cctest.cc
+         test-liveedit.cc
+         test-spaces.cc
+         test-log-stack-tracer.cc
+         gay-fixed.cc
+         test-heap.cc
+         test-hashmap.cc
+         test-global-handles.cc
+         test-thread-termination.cc
+         test-heap-profiler.cc
+         test-platform.cc
+         test-alloc.cc
+         test-compiler.cc
+         test-parsing.cc
+         test-random.cc
+         test-unbound-queue.cc
+         test-lock.cc
+         test-strings.cc
+         test-platform-win32.cc
+         test-date.cc
+         resources.cc
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\build\Release\cctest.exe" /INCREMENTAL:NO /NOLOGO ws2_32.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\..\build\Release\obj\cctest\cctest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\src\v8_3_18_x64\build\Release\cctest.pdb" /SUBSYSTEM:CONSOLE /STACK:"2097152" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:"..\..\build\Release\lib\cctest.lib" /MACHINE:X64 "..\..\build\Release\obj\cctest\test-circular-queue.obj"
+         "..\..\build\Release\obj\cctest\test-dataflow.obj"
+         "..\..\build\Release\obj\cctest\test-macro-assembler-x64.obj"
+         "..\..\build\Release\obj\cctest\gay-shortest.obj"
+         "..\..\build\Release\obj\cctest\test-flags.obj"
+         "..\..\build\Release\obj\cctest\test-fixed-dtoa.obj"
+         "..\..\build\Release\obj\cctest\test-symbols.obj"
+         "..\..\build\Release\obj\cctest\test-decls.obj"
+         "..\..\build\Release\obj\cctest\test-fast-dtoa.obj"
+         "..\..\build\Release\obj\cctest\test-dtoa.obj"
+         "..\..\build\Release\obj\cctest\test-assembler-x64.obj"
+         "..\..\build\Release\obj\cctest\test-double.obj"
+         "..\..\build\Release\obj\cctest\test-hashing.obj"
+         "..\..\build\Release\obj\cctest\test-utils.obj"
+         "..\..\build\Release\obj\cctest\test-log.obj"
+         "..\..\build\Release\obj\cctest\test-version.obj"
+         "..\..\build\Release\obj\cctest\gay-precision.obj"
+         "..\..\build\Release\obj\cctest\test-func-name-inference.obj"
+         "..\..\build\Release\obj\cctest\test-sockets.obj"
+         "..\..\build\Release\obj\cctest\test-mark-compact.obj"
+         "..\..\build\Release\obj\cctest\test-declarative-accessors.obj"
+         "..\..\build\Release\obj\cctest\test-object-observe.obj"
+         "..\..\build\Release\obj\cctest\test-bignum-dtoa.obj"
+         "..\..\build\Release\obj\cctest\test-threads.obj"
+         "..\..\build\Release\obj\cctest\test-accessors.obj"
+         "..\..\build\Release\obj\cctest\test-ast.obj"
+         "..\..\build\Release\obj\cctest\test-weakmaps.obj"
+         "..\..\build\Release\obj\cctest\test-strtod.obj"
+         "..\..\build\Release\obj\cctest\test-global-object.obj"
+         "..\..\build\Release\obj\cctest\test-deoptimization.obj"
+         "..\..\build\Release\obj\cctest\test-platform-tls.obj"
+         "..\..\build\Release\obj\cctest\test-regexp.obj"
+         "..\..\build\Release\obj\cctest\test-cpu-profiler.obj"
+         "..\..\build\Release\obj\cctest\test-dictionary.obj"
+         "..\..\build\Release\obj\cctest\test-list.obj"
+         "..\..\build\Release\obj\cctest\test-bignum.obj"
+         "..\..\build\Release\obj\cctest\test-reloc-info.obj"
+         "..\..\build\Release\obj\cctest\test-serialize.obj"
+         "..\..\build\Release\obj\cctest\test-diy-fp.obj"
+         "..\..\build\Release\obj\cctest\test-lockers.obj"
+         "..\..\build\Release\obj\cctest\test-debug.obj"
+         "..\..\build\Release\obj\cctest\test-profile-generator.obj"
+         "..\..\build\Release\obj\cctest\test-conversions.obj"
+         "..\..\build\Release\obj\cctest\test-api.obj"
+         ..\..\build\Release\obj\cctest\cctest.obj
+         "..\..\build\Release\obj\cctest\test-liveedit.obj"
+         "..\..\build\Release\obj\cctest\test-spaces.obj"
+         "..\..\build\Release\obj\cctest\test-log-stack-tracer.obj"
+         "..\..\build\Release\obj\cctest\gay-fixed.obj"
+         "..\..\build\Release\obj\cctest\test-heap.obj"
+         "..\..\build\Release\obj\cctest\test-hashmap.obj"
+         "..\..\build\Release\obj\cctest\test-global-handles.obj"
+         "..\..\build\Release\obj\cctest\test-thread-termination.obj"
+         "..\..\build\Release\obj\cctest\test-heap-profiler.obj"
+         "..\..\build\Release\obj\cctest\test-platform.obj"
+         "..\..\build\Release\obj\cctest\test-alloc.obj"
+         "..\..\build\Release\obj\cctest\test-compiler.obj"
+         "..\..\build\Release\obj\cctest\test-parsing.obj"
+         "..\..\build\Release\obj\cctest\test-random.obj"
+         "..\..\build\Release\obj\cctest\test-unbound-queue.obj"
+         "..\..\build\Release\obj\cctest\test-lock.obj"
+         "..\..\build\Release\obj\cctest\test-strings.obj"
+         "..\..\build\Release\obj\cctest\test-platform-win32.obj"
+         "..\..\build\Release\obj\cctest\test-date.obj"
+         ..\..\build\Release\obj\cctest\resources.obj
+         F:\src\v8_3_18_x64\build\Release\lib\v8_base.x64.lib
+         F:\src\v8_3_18_x64\build\Release\lib\v8_snapshot.lib
+         test-circular-queue.obj : MSIL .netmodule または /GL を伴ってコンパイルされたモジュールが見つかりました。/LTCG を使用して再開始してください。リンカーのパフォーマンスを向上させるためには、コマンドラインに /LTCG を追加してください。
+         コード生成しています。
+         コード生成が終了しました。
+         cctest.vcxproj -> ..\..\build\Release\\cctest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\build\Release\cctest.exe;#1" /manifest ..\..\build\Release\obj\cctest\cctest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "..\..\build\Release\obj\cctest\cctest.unsuccessfulbuild" を削除しています。
+         "..\..\build\Release\obj\cctest\cctest.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "F:\src\v8_3_18_x64\test\cctest\cctest.vcxproj" (rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:05:51.89

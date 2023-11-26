@@ -1,0 +1,25 @@
+﻿2014/11/24 22:08:47 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "F:\src\v8_3_18_x64\tools\gyp\v8_nosnapshot.x64.vcxproj" (rebuild ターゲット)。
+     1>_PrepareForClean:
+         ファイル "..\..\build\Release\obj\v8_nosnapshot.x64\v8_nosnapshot.x64.lastbuildstate" を削除しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "..\..\build\Release\obj\v8_nosnapshot.x64\v8_nosnapshot.x64.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\src /Zi /nologo /W3 /WX /O2 /Ob2 /Oi /GL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _HAS_EXCEPTIONS=0 /D ENABLE_DEBUGGER_SUPPORT /D V8_TARGET_ARCH_X64 /D WIN32 /D _UNICODE /D UNICODE /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"..\..\build\Release\obj\v8_nosnapshot.x64\\" /Fd"..\..\build\Release\obj\v8_nosnapshot.x64\vc100.pdb" /Gd /TP /wd4355 /wd4800 /errorReport:prompt ..\..\build\Release\obj\global_intermediate\libraries.cc "..\..\build\Release\obj\global_intermediate\experimental-libraries.cc" "..\..\src\snapshot-empty.cc" /MP 
+         libraries.cc
+         experimental-libraries.cc
+         snapshot-empty.cc
+       Lib:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\..\build\Release\lib\v8_nosnapshot.x64.lib" /NOLOGO ..\..\build\Release\obj\v8_nosnapshot.x64\libraries.obj
+         "..\..\build\Release\obj\v8_nosnapshot.x64\experimental-libraries.obj"
+         "..\..\build\Release\obj\v8_nosnapshot.x64\snapshot-empty.obj" /ignore:4221 
+         snapshot-empty.obj : MSIL .netmodule または /GL を伴ってコンパイルされたモジュールが見つかりました。/LTCG を使用して再開始してください。リンカーのパフォーマンスを向上させるためには、コマンドラインに /LTCG を追加してください。
+         v8_nosnapshot.x64.vcxproj -> ..\..\build\Release\lib\v8_nosnapshot.x64.lib
+       FinalizeBuildStatus:
+         ファイル "..\..\build\Release\obj\v8_nosnapshot.x64\v8_nosnapshot.x64.unsuccessfulbuild" を削除しています。
+         "..\..\build\Release\obj\v8_nosnapshot.x64\v8_nosnapshot.x64.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "F:\src\v8_3_18_x64\tools\gyp\v8_nosnapshot.x64.vcxproj" (rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:05.61

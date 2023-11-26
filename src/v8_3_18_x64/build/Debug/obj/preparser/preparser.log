@@ -1,0 +1,38 @@
+﻿2014/12/14 18:38:33 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "F:\src\v8_3_18_x64\preparser\preparser.vcxproj" (rebuild ターゲット)。
+     1>_PrepareForClean:
+         ファイル "..\build\Debug\obj\preparser\preparser.lastbuildstate" を削除しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "..\build\Debug\obj\preparser\preparser.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\src /Zi /nologo /W3 /WX /Od /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _HAS_EXCEPTIONS=0 /D ENABLE_DEBUGGER_SUPPORT /D V8_TARGET_ARCH_X64 /D WIN32 /D DEBUG /D ENABLE_DISASSEMBLER /D V8_ENABLE_CHECKS /D OBJECT_PRINT /D VERIFY_HEAP /D ENABLE_EXTRA_CHECKS /D _UNICODE /D UNICODE /Gm- /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"..\build\Debug\obj\preparser\\" /Fd"..\build\Debug\obj\preparser\vc100.pdb" /Gd /TP /wd4355 /wd4800 /errorReport:prompt "preparser-process.cc" "..\src\preparser-api.cc" /MP 
+         preparser-process.cc
+         preparser-api.cc
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"..\build\Debug\obj\preparser\preparser.exe.embed.manifest.res" ..\build\Debug\obj\preparser\preparser_manifest.rc 
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\build\Debug\preparser.exe" /INCREMENTAL /NOLOGO ws2_32.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\build\Debug\obj\preparser\preparser.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\src\v8_3_18_x64\build\Debug\preparser.pdb" /SUBSYSTEM:CONSOLE /STACK:"2097152" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:"..\build\Debug\lib\preparser.lib" /MACHINE:X64 ..\build\Debug\obj\preparser\preparser.exe.embed.manifest.res
+         "..\build\Debug\obj\preparser\preparser-process.obj"
+         "..\build\Debug\obj\preparser\preparser-api.obj"
+         F:\src\v8_3_18_x64\build\Debug\lib\v8_snapshot.lib
+         F:\src\v8_3_18_x64\build\Debug\lib\v8_base.x64.lib
+         preparser.vcxproj -> ..\build\Debug\\preparser.exe
+       Manifest:
+         ファイル "..\build\Debug\obj\preparser\preparser.exe.embed.manifest" を削除しています。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"..\build\Debug\obj\preparser\preparser.exe.embed.manifest" /manifest ..\build\Debug\obj\preparser\preparser.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"..\build\Debug\obj\preparser\preparser.exe.embed.manifest.res" ..\build\Debug\obj\preparser\preparser_manifest.rc 
+       LinkEmbedManifest:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\build\Debug\preparser.exe" /INCREMENTAL /NOLOGO ws2_32.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\build\Debug\obj\preparser\preparser.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\src\v8_3_18_x64\build\Debug\preparser.pdb" /SUBSYSTEM:CONSOLE /STACK:"2097152" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:"..\build\Debug\lib\preparser.lib" /MACHINE:X64 ..\build\Debug\obj\preparser\preparser.exe.embed.manifest.res
+         "..\build\Debug\obj\preparser\preparser-process.obj"
+         "..\build\Debug\obj\preparser\preparser-api.obj"
+         F:\src\v8_3_18_x64\build\Debug\lib\v8_snapshot.lib
+         F:\src\v8_3_18_x64\build\Debug\lib\v8_base.x64.lib
+         preparser.vcxproj -> ..\build\Debug\\preparser.exe
+       FinalizeBuildStatus:
+         ファイル "..\build\Debug\obj\preparser\preparser.unsuccessfulbuild" を削除しています。
+         "..\build\Debug\obj\preparser\preparser.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "F:\src\v8_3_18_x64\preparser\preparser.vcxproj" (rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:02:50.80

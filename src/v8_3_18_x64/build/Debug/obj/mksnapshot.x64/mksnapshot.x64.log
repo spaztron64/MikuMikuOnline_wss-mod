@@ -1,0 +1,35 @@
+﻿2014/12/14 18:38:20 にビルドを開始しました。
+     1>ノード 5 上のプロジェクト "F:\src\v8_3_18_x64\tools\gyp\mksnapshot.x64.vcxproj" (rebuild ターゲット)。
+     1>_PrepareForClean:
+         ファイル "..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64.lastbuildstate" を削除しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\src /Zi /nologo /W3 /WX /Od /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _HAS_EXCEPTIONS=0 /D ENABLE_DEBUGGER_SUPPORT /D V8_TARGET_ARCH_X64 /D WIN32 /D DEBUG /D ENABLE_DISASSEMBLER /D V8_ENABLE_CHECKS /D OBJECT_PRINT /D VERIFY_HEAP /D ENABLE_EXTRA_CHECKS /D _UNICODE /D UNICODE /Gm- /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"..\..\build\Debug\obj\mksnapshot.x64\\" /Fd"..\..\build\Debug\obj\mksnapshot.x64\vc100.pdb" /Gd /TP /wd4355 /wd4800 /errorReport:prompt ..\..\src\mksnapshot.cc /MP 
+         mksnapshot.cc
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64.exe.embed.manifest.res" ..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64_manifest.rc 
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\build\Debug\mksnapshot.x64.exe" /INCREMENTAL /NOLOGO ws2_32.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\src\v8_3_18_x64\build\Debug\mksnapshot.x64.pdb" /SUBSYSTEM:CONSOLE /STACK:"2097152" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:"..\..\build\Debug\lib\mksnapshot.x64.lib" /MACHINE:X64 ..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64.exe.embed.manifest.res
+         ..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.obj
+         F:\src\v8_3_18_x64\build\Debug\lib\v8_base.x64.lib
+         F:\src\v8_3_18_x64\build\Debug\lib\v8_nosnapshot.x64.lib
+         mksnapshot.x64.vcxproj -> ..\..\build\Debug\\mksnapshot.x64.exe
+       Manifest:
+         ファイル "..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64.exe.embed.manifest" を削除しています。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64.exe.embed.manifest" /manifest ..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64.exe.embed.manifest.res" ..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64_manifest.rc 
+       LinkEmbedManifest:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\build\Debug\mksnapshot.x64.exe" /INCREMENTAL /NOLOGO ws2_32.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\src\v8_3_18_x64\build\Debug\mksnapshot.x64.pdb" /SUBSYSTEM:CONSOLE /STACK:"2097152" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:"..\..\build\Debug\lib\mksnapshot.x64.lib" /MACHINE:X64 ..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64.exe.embed.manifest.res
+         ..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.obj
+         F:\src\v8_3_18_x64\build\Debug\lib\v8_base.x64.lib
+         F:\src\v8_3_18_x64\build\Debug\lib\v8_nosnapshot.x64.lib
+         mksnapshot.x64.vcxproj -> ..\..\build\Debug\\mksnapshot.x64.exe
+       FinalizeBuildStatus:
+         ファイル "..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64.unsuccessfulbuild" を削除しています。
+         "..\..\build\Debug\obj\mksnapshot.x64\mksnapshot.x64.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "F:\src\v8_3_18_x64\tools\gyp\mksnapshot.x64.vcxproj" (rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:07.30

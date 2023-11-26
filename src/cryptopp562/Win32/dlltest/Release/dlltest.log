@@ -1,0 +1,15 @@
+﻿Build started 26-Nov-23 15:07:20.
+     1>Project "C:\mikumikuonline_src\src\cryptopp562\dlltest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Win32\dlltest\Release\dlltest.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\DLL_Output\Release\dlltest.exe" /NOLOGO odbc32.lib odbccp32.lib d3dx.lib ddraw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\dlltest\Release\dlltest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\mikumikuonline_src\src\cryptopp562\Win32\DLL_Output\Release\dlltest.pdb" /SUBSYSTEM:CONSOLE /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Win32\DLL_Output\Release\dlltest.lib" /MACHINE:X86 Win32\dlltest\Release\dlltest.obj
+         C:\mikumikuonline_src\src\cryptopp562\Win32\DLL_Output\Release\cryptopp.lib
+     1>LINK : fatal error LNK1181: cannot open input file 'd3dx.lib'
+     1>Done Building Project "C:\mikumikuonline_src\src\cryptopp562\dlltest.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.06

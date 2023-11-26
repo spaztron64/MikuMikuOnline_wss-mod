@@ -1,0 +1,16 @@
+﻿2014/11/24 22:08:43 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "F:\src\v8_3_18_x64\test\cctest\resources.vcxproj" (rebuild ターゲット)。
+     1>_PrepareForClean:
+         ファイル "..\..\build\Release\obj\resources\resources.lastbuildstate" を削除しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "..\..\build\Release\obj\resources\resources.unsuccessfulbuild" を作成しています。
+       CustomBuild:
+         js2c
+       FinalizeBuildStatus:
+         ファイル "..\..\build\Release\obj\resources\resources.unsuccessfulbuild" を削除しています。
+         "..\..\build\Release\obj\resources\resources.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "F:\src\v8_3_18_x64\test\cctest\resources.vcxproj" (rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.48
